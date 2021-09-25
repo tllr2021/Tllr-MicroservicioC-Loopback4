@@ -1,0 +1,37 @@
+version: '3'
+services:
+  app:
+    image: Envios
+    container_name: Envios
+
+    build: .
+    deploy:
+      resources:
+        limits:
+          cpus: "0.15"
+          memory: 250M
+        reservations:
+          cpus: "0.25"
+          memory: 128M
+    command: node .
+
+    ports:
+      - 3000:3000
+
+
+  mongo:
+    image: mongo:3.6
+    restart: always
+    # Uncomment the next two lines to connect to your your database from outside the Docker environment, e.g. using a database GUI like Compass
+    # ports:
+    # - "27017:27017"
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: envios
+      MONGO_INITDB_ROOT_PASSWORD: envios
+    ports:
+      - "27017:27017"
+    volumes:
+      - ./mongorestore.sh:/docker-entrypoint-initdb.d/mongorestore.sh
+      - mongo:/var/lib/mongo
+volumes:
+  mongo:
