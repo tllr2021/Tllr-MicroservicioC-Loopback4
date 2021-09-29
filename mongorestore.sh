@@ -1,1 +1,1 @@
-mongorestore -d mydatabase /db-dump
+mongorestore --gzip --archive=/postales

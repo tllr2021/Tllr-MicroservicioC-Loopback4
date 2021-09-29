@@ -1,8 +1,8 @@
 version: '3'
 services:
   app:
-    image: Envios
-    container_name: Envios
+    image: envios
+    container_name: envios
 
     build: .
     deploy:
@@ -31,7 +31,8 @@ services:
     ports:
       - "27017:27017"
     volumes:
-      - ./mongorestore.sh:/docker-entrypoint-initdb.d/mongorestore.sh
       - mongo:/var/lib/mongo
+      - ./mongorestore.sh:/docker-entrypoint-initdb.d/mongorestore.sh
+      - ./postales.agz:/postales
 volumes:
   mongo:
