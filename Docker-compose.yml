@@ -2,6 +2,7 @@ version: '3'
 services:
   app:
     image: envios
+
     container_name: envios
 
     build: .
@@ -14,7 +15,8 @@ services:
           cpus: "0.25"
           memory: 128M
     command: node .
-
+    links:
+      - mongo
     ports:
       - 3000:3000
 
