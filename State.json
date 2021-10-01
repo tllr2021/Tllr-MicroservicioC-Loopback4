@@ -1,0 +1,128 @@
+{ 
+    "_id" : NumberInt(32), 
+    "state" : "Zacatecas"
+}
+{ 
+    "_id" : NumberInt(30), 
+    "state" : "Veracruz de Ignacio de la Llave"
+}
+{ 
+    "_id" : NumberInt(29), 
+    "state" : "Tlaxcala"
+}
+{ 
+    "_id" : NumberInt(28), 
+    "state" : "Tamaulipas"
+}
+{ 
+    "_id" : NumberInt(27), 
+    "state" : "Tabasco"
+}
+{ 
+    "_id" : NumberInt(26), 
+    "state" : "Sonora"
+}
+{ 
+    "_id" : NumberInt(25), 
+    "state" : "Sinaloa"
+}
+{ 
+    "_id" : NumberInt(24), 
+    "state" : "San Luis Potosí"
+}
+{ 
+    "_id" : NumberInt(10), 
+    "state" : "Durango"
+}
+{ 
+    "_id" : NumberInt(8), 
+    "state" : "Chihuahua"
+}
+{ 
+    "_id" : NumberInt(6), 
+    "state" : "Colima"
+}
+{ 
+    "_id" : NumberInt(5), 
+    "state" : "Coahuila de Zaragoza"
+}
+{ 
+    "_id" : NumberInt(31), 
+    "state" : "Yucatán"
+}
+{ 
+    "_id" : NumberInt(4), 
+    "state" : "Campeche"
+}
+{ 
+    "_id" : NumberInt(9), 
+    "state" : "Ciudad de México"
+}
+{ 
+    "_id" : NumberInt(7), 
+    "state" : "Chiapas"
+}
+{ 
+    "_id" : NumberInt(19), 
+    "state" : "Nuevo León"
+}
+{ 
+    "_id" : NumberInt(1), 
+    "state" : "Aguascalientes"
+}
+{ 
+    "_id" : NumberInt(21), 
+    "state" : "Puebla"
+}
+{ 
+    "_id" : NumberInt(2), 
+    "state" : "Baja California"
+}
+{ 
+    "_id" : NumberInt(15), 
+    "state" : "México"
+}
+{ 
+    "_id" : NumberInt(23), 
+    "state" : "Quintana Roo"
+}
+{ 
+    "_id" : NumberInt(3), 
+    "state" : "Baja California Sur"
+}
+{ 
+    "_id" : NumberInt(22), 
+    "state" : "Querétaro"
+}
+{ 
+    "_id" : NumberInt(11), 
+    "state" : "Guanajuato"
+}
+{ 
+    "_id" : NumberInt(12), 
+    "state" : "Guerrero"
+}
+{ 
+    "_id" : NumberInt(13), 
+    "state" : "Hidalgo"
+}
+{ 
+    "_id" : NumberInt(14), 
+    "state" : "Jalisco"
+}
+{ 
+    "_id" : NumberInt(16), 
+    "state" : "Michoacán de Ocampo"
+}
+{ 
+    "_id" : NumberInt(17), 
+    "state" : "Morelos"
+}
+{ 
+    "_id" : NumberInt(18), 
+    "state" : "Nayarit"
+}
+{ 
+    "_id" : NumberInt(20), 
+    "state" : "Oaxaca"
+}
