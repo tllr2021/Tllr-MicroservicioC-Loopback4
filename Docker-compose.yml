@@ -34,7 +34,8 @@ services:
       - "27017:27017"
     volumes:
       - mongo:/var/lib/mongo
-      - ./mongorestore.sh:/docker-entrypoint-initdb.d/mongorestore.sh
-      - ./postales.agz:/postales
+
+      - mongodata:/data/db
 volumes:
   mongo:
+  mongodata:
