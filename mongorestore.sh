@@ -1,1 +1,1 @@
-mongorestore --gzip --archive=/postales --nsFrom weepecStag.* --nsTo admin.*
+mongorestore --gzip --archive=/Postales --nsFrom weepecStag.* --nsTo admin.*

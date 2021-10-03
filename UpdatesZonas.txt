@@ -1,0 +1,151 @@
+
+
+
+db.postales.updateMany(
+      { c_estado: 9 },
+      { $set: { "c_zona" : 1 } }
+   );
+
+db.postales.updateMany(
+      { c_estado: 24 },
+      { $set: { "c_zona" : 1 } }
+   );
+db.postales.updateMany(
+      { c_estado: 15},
+      { $set: { "c_zona" : 1 } }
+   );
+
+db.postales.updateMany(
+      { c_estado: 22},
+      { $set: { "c_zona" : 1 } }
+   );
+db.postales.updateMany(
+      { c_estado: 14},
+      { $set: { "c_zona" : 1 } }
+   );
+
+
+db.postales.updateMany(
+      { c_estado: 30},
+      { $set: { "c_zona" : 2 } }
+   );
+
+
+
+db.postales.updateMany(
+      { c_estado: 32},
+      { $set: { "c_zona" : 3 } }
+   );
+
+db.postales.updateMany(
+      { c_estado: 29},
+      { $set: { "c_zona" : 3 } }
+   );
+db.postales.updateMany(
+      { c_estado: 26},
+      { $set: { "c_zona" : 3 } }
+   );
+
+db.postales.updateMany(
+      { c_estado: 25},
+      { $set: { "c_zona" : 3 } }
+   );
+db.postales.updateMany(
+      { c_estado: 10},
+      { $set: { "c_zona" : 3 } }
+   );
+db.postales.updateMany(
+      { c_estado: 8 },
+      { $set: { "c_zona" : 3 } }
+   );
+
+db.postales.updateMany(
+      { c_estado: 5 },
+      { $set: { "c_zona" : 3 } }
+   );
+db.postales.updateMany(
+      { c_estado: 19},
+      { $set: { "c_zona" : 3 } }
+   );
+
+db.postales.updateMany(
+      { c_estado: 13},
+      { $set: { "c_zona" : 3 } }
+   );
+
+
+db.postales.updateMany(
+      { c_estado: 28 },
+      { $set: { "c_zona" : 4 } }
+   );
+db.postales.updateMany(
+      { c_estado: 21},
+      { $set: { "c_zona" : 4 } }
+   );
+
+db.postales.updateMany(
+      { c_estado: 16},
+      { $set: { "c_zona" : 4 } }
+   );
+
+
+
+
+
+
+db.postales.updateMany(
+      { c_estado: 27 },
+      { $set: { "c_zona" : 5 } }
+   );
+
+db.postales.updateMany(
+      { c_estado: 6 },
+      { $set: { "c_zona" : 5 } }
+   );
+db.postales.updateMany(
+      { c_estado: 31},
+      { $set: { "c_zona" : 5 } }
+   );
+
+db.postales.updateMany(
+      { c_estado: 4},
+      { $set: { "c_zona" : 5 } }
+   );
+db.postales.updateMany(
+      { c_estado: 7},
+      { $set: { "c_zona" : 5 } }
+   );
+
+
+db.postales.updateMany(
+      { c_estado: 1},
+      { $set: { "c_zona" : 5 } }
+   );
+db.postales.updateMany(
+      { c_estado: 2 },
+      { $set: { "c_zona" : 5 } }
+   );
+
+db.postales.updateMany(
+      { c_estado: 23 },
+      { $set: { "c_zona" : 5 } }
+   );
+db.postales.updateMany(
+      { c_estado: 3},
+      { $set: { "c_zona" : 5 } }
+   );
+
+db.postales.updateMany(
+      { c_estado: 17},
+      { $set: { "c_zona" : 5 } }
+   );
+db.postales.updateMany(
+      { c_estado: 18},
+      { $set: { "c_zona" : 5 } }
+   );
+
+
+db.postales.updateMany(
+      { c_estado: 20},
+      { $set: { "c_zona" : 5 } }
+   );
