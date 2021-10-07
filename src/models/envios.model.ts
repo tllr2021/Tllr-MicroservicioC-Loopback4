@@ -20,6 +20,12 @@ export class Envios extends Model {
   })
   tiempoEnvio: String;
 
+  @property({
+    type: 'number',
+    required: true,
+  })
+  zona: Number;
+
   constructor(data?: Partial<Envios>) {
     super(data);
   }
