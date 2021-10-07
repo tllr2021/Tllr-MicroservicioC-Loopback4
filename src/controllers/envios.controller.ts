@@ -83,6 +83,6 @@ export class EnviosController {
     // Lo puse al final porque la llamada va a depender del precio de envio calculado
     descuentos = {tieneDescuento: true, porcentajeDescuentoE: 5, porcentajeDescuentoP: 10, cantidadDescontadaE: 5, cantidadDescontadaP: 5, nuevoTotal: 1000};
 
-    return new Envios({descuentos, precioEnvio, tiempoEnvio});
+    return new Envios({descuentos, precioEnvio, tiempoEnvio, zona});
   }
 }
