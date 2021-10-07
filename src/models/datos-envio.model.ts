@@ -10,6 +10,12 @@ export class DatosEnvio extends Model {
   metodosPago: string;
 
   @property({
+    type: 'string',
+    required: true,
+  })
+  cupon: string;
+
+  @property({
     type: 'number',
     required: true,
   })
