@@ -28,10 +28,10 @@ export class DatosEnvio extends Model {
   peso: string;
 
   @property({
-    type: 'string',
+    type: 'number',
     required: true,
   })
-  codigoPostal: string;
+  codigoPostal: number;
 
 
   constructor(data?: Partial<DatosEnvio>) {
