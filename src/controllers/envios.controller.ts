@@ -1,10 +1,15 @@
+import {inject} from "@loopback/core";
 import {
   getModelSchemaRef, post, requestBody,
   response
 } from '@loopback/rest';
 import {DatosEnvio, Envios} from '../models';
-
+import {Postales} from "../services/postales.service";
 export class EnviosController {
+  constructor(
+    @inject('services.Postales')
+    protected PostalesService: Postales
+  ){}
   @post('/envios')
   @response(200, {
     description: 'Envio model instance',
@@ -22,9 +27,7 @@ export class EnviosController {
     })
     datosEnvio: DatosEnvio,
   ): Promise<Envios> {
-    // Esto eventualmente se convertirá en una llamada al servicio de postales
-    // para obtener el número de zona correcto
-    let zona = 2;
+    let {c_zona: zona} = (await this.PostalesService.getZona(datosEnvio.codigoPostal))[0];
 
     let precioEnvio = -1;
     let preciosEnvio: number[] = [];
